@@ -12,8 +12,7 @@ export class AppComponent implements OnInit{
   constructor(
     private furnitureService: FurnitureService
     ){}
-  ngOnInit(){
-    this.furnitureService = this.furnitureService.myFurnitures 
+  ngOnInit(){ 
   }
 }
 
